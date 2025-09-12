@@ -1,0 +1,152 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #467257;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --ifm-heading-color: #404542;
+  --ifm-heading-font-family: Nunito;
+  --ifm-navbar-height: 4.5rem;
+  --ifm-navbar-background-color: #3e454b;
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-link-hover-color: #ffffff;
+  --ifm-h3-font-size: 1.1rem;
+  --ifm-code-font-size: .8em;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Global styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html {
+  font-family: 'Montserrat';
+  font-weight: 450;
+}
+
+
+.padding-top--md{
+  padding-top: 3rem !important;
+}
+
+.button {
+  background-color: #277148;
+}
+
+.button.button--secondary {
+  color: #FFFFFF;
+}
+
+/* NavBar styles */
+
+.navbar__logo {
+  height: 3rem;
+  margin-left: 6rem;
+}
+
+.navbar__link--active {
+  border-bottom: solid 3px;
+}
+
+.navbar__items--right {
+  padding-right: 10rem;
+}
+
+/* About me styles */
+
+.aboutme-container {
+  display: flex;
+  width: 100%;
+  max-height: 175px;
+}
+
+.aboutme-name { 
+  flex: 3;
+  text-align: center;
+}
+
+.aboutme-photo {
+  flex: 1;
+}
+
+.aboutme-photo img {  
+  overflow: clip;
+  max-height: 175px;
+  max-width: 150px;
+  border: 6px solid #404542;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.aboutme-tagline {
+  margin-top: -10px; 
+  text-align: center;
+}
+
+/* Portfolio styles */
+
+.col a:hover {
+  text-decoration-color: #fff;
+  text-decoration-thickness: 2px;
+}
+
+.portfolio-example {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+  border: 6px solid #404542;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-example p {
+  margin-bottom: -10px;
+}
+
+
+/* Recommendation styles */
+
+.logos img {
+  object-fit: none;
+}
+
+.theme-admonition-note {
+  background-color: inherit;
+  border-left: 5px solid #277148;
+  border-right: solid 0;
+  border-radius: 0;
+  padding-top: 3px;
+  padding-bottom: 5px; 
+  margin-left: 3em;
+  margin-bottom: 3em !important;
+}
+
+theme-admonition-note img {
+  max-height: 25px !important;
+}
+
+.admonitionHeading_Gvgb {
+  display: none !important;
+}
