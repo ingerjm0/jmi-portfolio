@@ -1,0 +1,69 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Resume Tile - Rounded Header</title>
+  <desc id="desc">
+    A resume illustration with a warm taupe header, soft neutral background, rounded Poppins font, and an updated CTA reading 'View my experience'.
+  </desc>
+
+  <style>
+    :root{
+      --paper: #ffffff;
+      --header: #7C6E5F; /* rich warm taupe header */
+      --accent: #1E6B43;
+      --line-1:#dcebe2;
+      --line-2:#d6e4ea;
+      --line-3:#efe7da;
+      --line-4:#e6efe8;
+      --clip:#b9a893;
+    }
+    .label{
+      font-family:'Poppins',system-ui,-apple-system,"Segoe UI",Roboto,Arial;
+      font-weight:700;
+      font-size:24px;
+      letter-spacing:0.3px;
+      fill:#FFF9F2;
+    }
+    .small{
+      font-family:'Poppins',system-ui,-apple-system,"Segoe UI",Roboto,Arial;
+      font-weight:600;
+      font-size:24px;
+      letter-spacing:0.3px;
+    }
+  </style>
+
+  <defs>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="black" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(40,52) rotate(-6)" filter="url(#shadow)">
+    <rect x="0" y="30" width="430" height="240" rx="14" fill="var(--paper)"/>
+    <rect x="0" y="0" width="430" height="54" rx="14" ry="14" fill="var(--header)"/>
+    <text x="20" y="36" class="label">Resume</text>
+
+    <!-- avatar -->
+    <circle cx="56" cy="104" r="26" fill="#e8e9f1"/>
+    <path d="M56 92 a12 12 0 1 0 0.01 0Z M38 118 c5 -10 15 -16 18 -16 h0 c3 0 13 6 18 16 2 3 1 6 -3 6 h-30 c-4 0 -5 -3 -3 -6z"
+          fill="#b7beca" opacity=".9"/>
+
+    <!-- lines -->
+    <rect x="98" y="86" width="240" height="14" rx="7" fill="var(--line-1)"/>
+    <rect x="98" y="106" width="200" height="10" rx="5" fill="var(--line-2)"/>
+    <rect x="20" y="142" width="380" height="10" rx="5" fill="var(--line-3)"/>
+    <rect x="20" y="160" width="320" height="10" rx="5" fill="var(--line-4)"/>
+    <rect x="20" y="178" width="340" height="10" rx="5" fill="var(--line-2)"/>
+    <rect x="20" y="196" width="300" height="10" rx="5" fill="var(--line-1)"/>
+
+    <!-- paperclip -->
+    <g transform="translate(372,-12) rotate(12)">
+      <path d="M18 12c4-4 10-4 14 0s4 10 0 14l-14 14c-4 4-10 4-14 0s-4-10 0-14l10-10"
+            fill="none" stroke="var(--clip)" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- CTA -->
+    <g transform="translate(206, 245)">
+      <rect x="-140" y="0" width="300" height="45" rx="25" fill="var(--accent)"/>
+      <text x="10" y="30" text-anchor="middle" class="small" fill="#ffffff">View my experience</text>
+    </g>
+  </g>
+</svg>

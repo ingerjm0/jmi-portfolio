@@ -1,22 +1,33 @@
-# Resume
- ---
+
 
 ```mdx-code-block
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 ```
 
-<div style={{ textAlign: 'center' }}>
+<div class="resume-header">
+    <div class="resume-title">
 
-<h2>JENNA M INGERSOLL</h2>
+&nbsp;
 
-HEAD OF KNOWLEDGE • TECHNICAL WRITING MANAGER<br />CONTENT STRATEGIST • PROGRAM MANAGER<br />TECHNICAL TRAINER / EDUCATOR
+# Jenna M Ingersoll
 
-www.linkedin.com/in/jenna-ingersoll
+MANAGER OF KNOWLEDGE SYSTEMS • TEAM LEADER • CONTENT STRATEGIST • DOCUMENTATION ARCHITECT • PROGRAM MANAGER • TECHNICAL WRITER • EDUCATOR
+
+**Transforming complex information into clear, user-focused knowledge systems that scale across teams and technologies**
+
+    </div>
+     <div class="resume-badge">
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="jenna-ingersoll"><a class="LI-simple-link" href='https://www.linkedin.com/in/jenna-ingersoll?trk=profile-badge'></a></div>
+    </div>
+</div>
 
 ---
 
+<div style={{ textAlign: 'center' }}>
+
 ## BIG FISH GAMES • Seattle WA
+
 </div>
 
 <Tabs>
@@ -275,3 +286,4 @@ Computational science is widely recognized as the fourth pillar of modern scienc
 - **Cloud & AI Foundations**: Studying for Google Cloud & AI certification, focusing on cloud computing, data analytics, and machine learning concepts
 
 
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>

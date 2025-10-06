@@ -20,6 +20,6 @@ View the API reference here: https://ingerjm0.github.io/writing-portfolio/dev/ap
 
 <div style={{ textAlign: 'center'}}>
 
-<h3> [Go back to all developer docs](./portfolio-dev) </h3>
+<h3> [View Portfolio](./portfolio) </h3>
 
 </div>

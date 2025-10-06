@@ -195,6 +195,6 @@ Now, when you walk into your portal, you will be transported to the destination 
 
 <div style={{ textAlign: 'center'}}>
 
-<h3> [Go back to all developer docs](./portfolio-dev) </h3>
+<h3> [View Portfolio](./portfolio) </h3>
 
 </div>

@@ -1,6 +1,6 @@
-# High Fidelity Online Docs
+# High Fidelity User Documentation
 
-**Tools Used**: Sphinx, Read the Docs, GitHub, Markdown, reStructuredText (RST), CSS, HTML5, Paint.NET
+**Tools Used**: Sphinx | Read the Docs | GitHub | Markdown | reStructuredText (RST) | CSS | HTML5 | Paint.NET
 
 ---
 
@@ -27,6 +27,6 @@ High Fidelity is available as an open-source platform, and all content is forked
 
 <div style={{ textAlign: 'center'}}>
 
-<h3> [Go back to all developer docs](./portfolio-dev) </h3>
+<h3> [View Portfolio](./portfolio) </h3>
 
 </div>

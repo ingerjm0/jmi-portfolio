@@ -1,4 +1,4 @@
-# Integrating the BFG SDK
+# SDK Integration Guide
 
 **Tools Used**: GitHub, Docusaurus
 
@@ -258,6 +258,6 @@ public class MainActivity extends bfgActivity {
 
 <div style={{ textAlign: 'center'}}>
 
-<h3> [Go back to all developer docs](./portfolio-dev) </h3>
+<h3> [View Portfolio](./portfolio) </h3>
 
 </div>

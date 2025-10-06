@@ -76,27 +76,10 @@ const config = {
             label: 'About Me',
           },
           {
-            type: 'dropdown',
-            label: 'Portfolio',
+            type: 'doc',
             position: 'right',
-            items: [
-              {
-                type: 'doc',
-                label: 'Developer Docs',
-                docId: 'portfolio-dev',
-              },
-              {
-                type: 'doc',
-                label: 'Help Systems',
-                docId: 'portfolio-help',
-              },
-              {
-                type: 'doc',
-                label: 'Other Professional Work',
-                docId: 'portfolio-other',
-              },
-              // ... more items
-            ],
+            docId: 'portfolio',
+            label: 'Portfolio',
           },
           {
             type: 'doc',
@@ -116,46 +99,20 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Contact',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'E-mail me!',
+                to: 'mailto:jenna.m.ingersoll@gmail.com',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Find me on LinkedIn',
+                to: 'https://www.linkedin.com/in/jenna-ingersoll/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jenna Ingersoll. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

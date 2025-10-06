@@ -24,6 +24,6 @@ The complete Unity SDK documentation is live on Big Fish's documentation site, [
 
 <div style={{ textAlign: 'center'}}>
 
-<h3> [Go back to all developer docs](./portfolio-dev) </h3>
+<h3> [View Portfolio](./portfolio) </h3>
 
 </div>

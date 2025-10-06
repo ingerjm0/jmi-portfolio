@@ -4,47 +4,52 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Professional Portfolio',
+    Svg: require('@site/static/img/homepage_portfolio_tile.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Explore highlights from my work in content strategy, documentation 
+        systems, and knowledge management. Each project reflects a commitment to 
+        clarity, collaboration, and creating tools that make information 
+        effortless to find and use.
       </>
     ),
+    link: '/docs/portfolio',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Resume',
+    Svg: require('@site/static/img/homepage_resume_tile.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Curious about my background? My resume outlines a career built on connecting 
+        people, process, and information, from technical writing to organizational 
+        strategy and transformation.
       </>
     ),
+    link: 'docs/resume',
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Recommendations',
+    Svg: require('@site/static/img/homepage_recommendations_tile.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The best part of my work is the people I get to partner with. Read what 
+        teammates, engineers, and leaders have shared about our collaborations 
+        and results.
       </>
     ),
+    link: 'docs/recommendations',
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
+      <a href={link}>
+        <div className="text--center">
+          <Svg className={styles.featureSvg} role="img" />
+        </div>
+      </a>
     </div>
   );
 }
