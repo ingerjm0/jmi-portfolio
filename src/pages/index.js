@@ -30,6 +30,23 @@ function HomepageBanner() {
   );
 }
 
+function HomepageSection() {
+  return (
+    <div>
+      <div className={clsx(styles.sectionBanner)} >
+        <h2>Certifications</h2>
+      </div>
+      <div className={clsx(styles.sectionContents)}>
+        <p className={clsx(styles.expTitle)} >Certified Google Cloud Digital Leader</p>
+        <p className={clsx(styles.expBody)} >Issued March 2025 - Expires March 2028</p>
+        <p className={clsx(styles.expTitle)} >Continuing Leadership Education Program <br />Executive Leadership</p>
+        <p className={clsx(styles.expBody)} > University of Nevada-Las Vegas </p>
+        <p className={clsx(styles.expBody)} >Issued December 2024</p>
+      </div>
+    </div>
+  );
+}
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -39,6 +56,7 @@ export default function Home() {
       <HomepageBanner />
       <main>
         <HomepageFeatures />
+        <HomepageSection />
       </main>
     </Layout>
   );

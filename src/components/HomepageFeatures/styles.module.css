@@ -1,11 +1,7 @@
-.hero {
-  height: 400px;
-}
-
 .features {
   display: flex;
   align-items: center;
-  padding: 5rem 0 1rem 0;
+  padding: 2rem 0 0 0;
   width: 100%;
 }
 

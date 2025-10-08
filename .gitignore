@@ -14,4 +14,3 @@ package-lock.json
 build
 coverage
 .docusaurus
-node_modules

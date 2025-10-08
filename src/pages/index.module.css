@@ -3,12 +3,6 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  position: relative;
-  overflow: hidden;
-}
-
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
@@ -54,4 +48,33 @@ h1 + p {
 
 .heroButtons {
   margin-top: 30px;
+}
+
+.sectionBanner {
+  background-color: #3e454b;
+  padding: 1.5rem;
+}
+
+.sectionBanner h2 {
+  text-align: center;
+  font-family: 'Nunito';
+  font-weight: 800;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.sectionContents {
+  padding: 1.5rem;
+}
+
+.expTitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1em;
+  margin: 1em 0 0 0;
+}
+
+.expBody {
+  text-align: center;
+  margin: 0;
 }

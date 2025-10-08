@@ -14,7 +14,7 @@ const FeatureList = [
         effortless to find and use.
       </>
     ),
-    link: '/docs/portfolio',
+    link: 'docs/portfolio',
   },
   {
     title: 'Resume',
