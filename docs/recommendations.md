@@ -4,8 +4,7 @@
 
 <div class="logos" style={{ textAlign:'center' }}>
  
-![Big Fish Games](/img/bigfish.jpeg)
-
+![alt text](image.png)
 </div>
 
 :::note

@@ -30,7 +30,7 @@ function HomepageBanner() {
   );
 }
 
-function HomepageSection() {
+function HomepageCerts() {
   return (
     <div>
       <div className={clsx(styles.sectionBanner)} >
@@ -47,16 +47,58 @@ function HomepageSection() {
   );
 }
 
+function HomepageExp() {
+  return (
+    <div>
+      <div className={clsx(styles.sectionBanner)} >
+        <h2>I've Worked With</h2>
+      </div>
+      <div className={clsx(styles.sectionContents)}>
+        <div className="row">
+          <div className={clsx('col')}>
+            <div className="text--center">
+              <img src={require('../../static/img/aristocrat.png').default} />
+            </div>
+          </div>
+          <div className={clsx('col')}>
+            <div className="text--center">
+              <img src={require('../../static/img/bigfish.png').default} />
+            </div>
+          </div>
+          <div className={clsx('col')}>
+            <div className="text--center">
+              <img src={require('../../static/img/highfidelity.png').default} />
+            </div>
+          </div>
+          <div className={clsx('col')}>
+            <div className="text--center">
+              <img src={require('../../static/img/shodor.jpeg').default} />
+            </div>
+          </div>
+          <div className={clsx('col')}>
+            <div className="text--center">
+              <img src={require('../../static/img/seagull.png').default} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Jenna Ingersoll`}
       description="Description will go into a meta tag in <head />">
       <HomepageBanner />
       <main>
         <HomepageFeatures />
-        <HomepageSection />
+        <HomepageCerts />
+        <HomepageExp />
       </main>
     </Layout>
   );

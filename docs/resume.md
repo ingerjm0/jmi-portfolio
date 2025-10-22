@@ -1,4 +1,6 @@
-
+---
+title: Resume
+---
 
 ```mdx-code-block
 import Tabs from '@theme/Tabs';
@@ -8,19 +10,65 @@ import TabItem from '@theme/TabItem';
 <div class="resume-header">
     <div class="resume-title">
 
-&nbsp;
+&nbsp; 
 
 # Jenna M Ingersoll
 
-MANAGER OF KNOWLEDGE SYSTEMS • TEAM LEADER • CONTENT STRATEGIST • DOCUMENTATION ARCHITECT • PROGRAM MANAGER • TECHNICAL WRITER • EDUCATOR
+**KNOWLEDGE SYSTEMS LEADER • CONTENT STRATEGIST<br />INFORMATION ARCHITECT • PROGRAM MANAGER • EDUCATOR**
 
-**Transforming complex information into clear, user-focused knowledge systems that scale across teams and technologies**
+Transforming complex information into clear, user-focused knowledge systems that empower teams and users alike
 
     </div>
      <div class="resume-badge">
         <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="jenna-ingersoll"><a class="LI-simple-link" href='https://www.linkedin.com/in/jenna-ingersoll?trk=profile-badge'></a></div>
     </div>
 </div>
+
+---
+
+<div style={{ textAlign: 'center' }}>
+    
+## ARISTOCRAT (Aristocrat Labs) • Remote
+
+</div>
+
+<Tabs>
+    <TabItem value="program" label="Program Management" default>
+
+As knowledge program lead, I establish scalable systems and governance frameworks to unify documentation, project management, and quality oversight across the Technical Project Management Office (TPMO). Key contributions include:
+
+- Designed and implemented the ALABs TPMO Playbook, defining mission, values, and governance processes for all TPMO-managed projects
+- Defined and embedded risk management and change control processes, creating templates and workflows that improve visibility, mitigate delivery impact, and strengthen decision-making
+- Established Smartsheet governance ecosystems, including standardized folder structures, project templates, and artifact repositories to support traceability and audit readiness
+- Partner with leadership to integrate documentation and governance standards into PMO reporting and delivery
+
+&nbsp;
+ 
+    </TabItem>
+    <TabItem value="knowledge" label="Knowledge Systems" default>
+
+I’m leading the redesign and relaunch of the Aristocrat Labs (ALABs) SharePoint site to evolve it from a static informational hub into a dynamic, self-service portal for employees. Key contributions include:
+
+- Define the site’s information architecture, navigation, and content strategy to align with ALABs’ expanding organization and communication needs
+- Design the layout and user experience to make it easy for employees to find content, access tools, and engage with ongoing initiatives
+- Manage content collection, review, and publishing processes to ensure accuracy, consistency, and timely completion
+- Establish the foundation for a sustainable knowledge ecosystem that promotes transparency, engagement, and cross-collaboration access across ALABs
+
+&nbsp;
+ 
+    </TabItem>
+    <TabItem value="education" label="Education & Enablement">
+ 
+As an advocate for learning and adoption, I lead the TPMO’s training program to ensure consistent understanding and application of project management practices. Key contributions include:
+
+- Partner with PMO leaders to establish a unified perspective on frameworks, governance, or standards
+- Deliver monthly TPMO training sessions, providing accompanying learning materials and reference guides to reinforce understanding and support long-term adoption
+- Simplify complex and overlapping content into clear, accessible resources that strengthen understanding, drive adoption, and close gaps identified through audits
+
+&nbsp;
+ 
+    </TabItem>
+</Tabs>
 
 ---
 
@@ -283,7 +331,7 @@ Computational science is widely recognized as the fourth pillar of modern scienc
 - **Technical Writing**: Product documentation, API reference, video scripts, SOPs, technical design documents
 - **User Experience & Engagement**: Content usability, analytics, and feedback-driven improvements
 - **Development & Methodologies**: Agile, Waterfall, SDLC, version control, developer tools, and structured authoring
-- **Cloud & AI Foundations**: Studying for Google Cloud & AI certification, focusing on cloud computing, data analytics, and machine learning concepts
+- **Cloud & AI Foundations**: Certified Google Cloud Digital Leader, focusing on cloud computing, data analytics, and machine learning concepts
 
 
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>

@@ -1,3 +1,7 @@
+---
+title: About Me
+---
+
 <div class="aboutme-container">
     <div class="aboutme-name">
 
@@ -19,6 +23,11 @@ ___
 **Hello!** I'm Jenna Ingersoll - a Seattle-based documentation specialist, knowledge manager, and educator with a passion for technology and writing. From documentation and content strategy to program management and team leadership, I help organizations build intuitive, scalable solutions that make information effortless to find and use.
 
 When I'm not working, you can find me in the great outdoors hiking, gardening, or rock climbing. You can find me relaxing with my family watching a movie. You can find me singing in a community choir, volunteering at the local cat rescue, or playing board games with friends. No matter what I’m doing, I love learning, connecting with others, and finding joy in new experiences.
+
+**Download Resume (PDF):**
+- [Knowledge Management](https://drive.google.com/file/d/1O09jOMHWd0Wt3tmS4Eza4MW_-6IC-AnX/view?usp=drive_link) 
+- [Technical Writing | Documentation](https://drive.google.com/file/d/1O09jOMHWd0Wt3tmS4Eza4MW_-6IC-AnX/view?usp=drive_link)
+- [Program Management](https://drive.google.com/file/d/1vQ73tp1FD2g7Sr2qOsMjzb441hy2GLGN/view?usp=drive_link)
 
 ### TEAM LEADER
 
