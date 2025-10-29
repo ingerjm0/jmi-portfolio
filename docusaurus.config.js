@@ -39,12 +39,15 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: false,
         },
-        blog: false,
+        blog: {
+          blogTitle: 'Beyond the Docs',
+          blogDescription: 'A Blog about knowledge management, technical writing, continuous improvement, and more',
+          blogSidebarTitle: ' ',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -97,6 +100,11 @@ const config = {
             position: 'right',
             docId: 'recommendations',
             label: 'Recommendations',
+          },
+          {
+            to: 'blog', 
+            label: 'Blog', 
+            position: 'right'
           },
         ],
       },

@@ -181,3 +181,9 @@ theme-admonition-note img {
 .admonitionHeading_Gvgb {
   display: none !important;
 }
+
+/* Blog styles */
+
+.margin-bottom--xl {
+  margin-bottom: 3rem !important;
+}
