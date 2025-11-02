@@ -4,7 +4,30 @@
 
 <div class="logos" style={{ textAlign:'center' }}>
  
-![alt text](image.png)
+![Aristocrat](/img/aristocrat.png)
+
+</div>
+
+:::note
+
+_Jenna is an incredibly hardworking leader who goes above and beyond to drive success. She is highly skilled at collaborating across multi-disciplinary teams, effortlessly bringing together diverse perspectives to achieve a common goal. Her ability to balance strategic vision with hands-on mentorship has made a lasting impression on me. She not only leads by example but also takes the time to develop those around her._
+
+**Theadora Valerian**, Senior Technical Writer
+
+:::
+
+:::note
+
+_I have had the privilege of working with Jenna on numerous projects, and she consistently exceeded expectations, demonstrating exceptional skills and a strong work ethic. Jenna excels in project management, consistently delivering projects on time and within budget. Her organizational prowess is remarkable. She possesses a keen ability to streamline processes and ensure seamless collaboration among team members. Beyond her project management acumen, Jenna is an outstanding technical writer. She possesses a unique talent for translating complex technical information into clear, concise, and easily digestible content. Her writing is not only technically accurate but also engaging and user-friendly._
+
+**Eric Lippke**, SVP - Cloud and Digital Platforms
+
+:::
+
+
+<div class="logos" style={{ textAlign:'center' }}>
+ 
+![alt text](/img/bigfish.png)
 </div>
 
 :::note
@@ -20,22 +43,6 @@ _Jenna is a pleasure to work with. She delivered meaningful value at Big Fish as
 _Jenna is an innovative problem solver who approaches challenges with creativity and determination. She has a unique talent for identifying areas for improvement and implementing effective solutions that enhance our knowledge management processes. Her proactive approach and commitment to excellence inspire those around her, fostering a collaborative environment that drives success._
 
 **Rachel DiPaola**, Chief of Staff & Sr Director of Transformation
-
-:::
-
-:::note
-
-_Jenna is an incredibly hardworking leader who goes above and beyond to drive success. She is highly skilled at collaborating across multi-disciplinary teams, effortlessly bringing together diverse perspectives to achieve a common goal. Her ability to balance strategic vision with hands-on mentorship has made a lasting impression on me. She not only leads by example but also takes the time to develop those around her._
-
-**Caleb Valerian**, Senior Technical Writer
-
-:::
-
-:::note
-
-_I have had the privilege of working with Jenna on numerous projects, and she consistently exceeded expectations, demonstrating exceptional skills and a strong work ethic. Jenna excels in project management, consistently delivering projects on time and within budget. Her organizational prowess is remarkable. She possesses a keen ability to streamline processes and ensure seamless collaboration among team members. Beyond her project management acumen, Jenna is an outstanding technical writer. She possesses a unique talent for translating complex technical information into clear, concise, and easily digestible content. Her writing is not only technically accurate but also engaging and user-friendly._
-
-**Eric Lippke**, SVP - Cloud and Digital Platforms
 
 :::
 

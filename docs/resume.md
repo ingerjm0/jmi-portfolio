@@ -249,7 +249,11 @@ I led cross-functional projects, optimized development workflows, and ensured se
 
 ---
 
+<div style={{ textAlign: 'center' }}>
+
 ## NEW HORIZONS • Chattanooga TN
+
+</div>
 
 <Tabs>
     <TabItem value="trainer" label="Training & Development" default>
@@ -267,7 +271,11 @@ I developed and delivered technical training programs to enhance customer profic
 
 ---
 
+<div style={{ textAlign: 'center' }}>
+
 ## SHODOR FOUNDATION • Durham NC
+
+</div>
 
 <Tabs>
     <TabItem value="leader" label="Leadership" default>
