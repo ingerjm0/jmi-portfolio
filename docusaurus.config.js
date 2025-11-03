@@ -73,7 +73,7 @@ const config = {
         },
         items: [
           {
-            to: 'index.html',
+            to: '/',
             label: 'Home',
             position: 'left',
           },

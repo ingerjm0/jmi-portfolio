@@ -13,11 +13,11 @@ function HomepageBanner() {
     <div className={clsx(styles.heroBanner)} >
       <div className={clsx(styles.heroInner)}>
         <Heading as="h1" className={clsx(styles.heroTagline)}>
-          <img src={require('../../static/img/ingersoll-headshot-2024.jpg').default} className={clsx(styles.heroPhoto)} alt="Headshot of Jenna Ingersoll" />
+          <img src={require('../../static/img/ingersoll-headshot-2025.png').default} className={clsx(styles.heroPhoto)} alt="Headshot of Jenna Ingersoll" />
           <span class={clsx(styles.heroTitle)}>{siteConfig.title}</span>
         </Heading>
-        <p><b>Content and knowledge systems should do more than inform—they should empower.</b></p>
-        <p>Hello! I'm Jenna Ingersoll — a Seattle-based documentation specialist, knowledge manager, and educator with a passion for technology and writing. From documentation and content strategy to program management and team leadership, I help organizations build intuitive, scalable solutions that make information effortless to find and use.</p>
+        <p><b>Content and knowledge systems should do more than inform. They should empower.</b></p>
+        <p>Hello! I'm Jenna Ingersoll, a Seattle-based documentation specialist, knowledge manager, and educator with a passion for technology and writing. From documentation and content strategy to program management and team leadership, I help organizations build intuitive, scalable solutions that make information effortless to find and use.</p>
         <div className={styles.heroButtons}>
           <Link
             className="button button--secondary button--lg"
