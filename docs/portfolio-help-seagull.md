@@ -27,6 +27,6 @@ I'd love to be able to share the entire project with you, but unfortunately, it 
 
 <div style={{ textAlign: 'center'}}>
 
-<h3> [Go back to all developer docs](./portfolio-dev) </h3>
+<h3> [Go back to all developer docs](./portfolio) </h3>
 
 </div>
