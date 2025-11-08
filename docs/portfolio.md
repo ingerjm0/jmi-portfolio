@@ -18,7 +18,6 @@ Developer documentation meets the developer where they are, providing language-s
 
     - **[Big Fish SDKs](./portfolio-ref-bfg.md)**
     - **[Java API Reference](./portfolio-ref-hifi.md)**
-    - **[SDK Integration Guide](./portfolio-tutorial-bfg.md)**
     - **[JavaScript Tutorial: How to Create a Portal](./portfolio-tutorial-hifi.md)**
 
 
