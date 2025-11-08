@@ -59,7 +59,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/ingersoll-og.png',
-      metadata: [{property: 'og:image', content: 'https://jmidocs.com/img/ingersoll-og.png'}],
+      metadata: [
+        { name: 'twitter:image', content: 'https://jmidocs.com/img/ingersoll-og.png' },
+        { property: 'og:url', content: 'https://jmidocs.com/img/ingersoll-og.png' }
+      ],
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
