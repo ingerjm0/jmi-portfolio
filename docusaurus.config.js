@@ -58,7 +58,8 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/ingersoll-og.png',
+      metadata: [{property: 'og:image', content: 'https://jmidocs.com/img/ingersoll-og.png'}],
       colorMode: {
         defaultMode: 'light',
         disableSwitch: true,
