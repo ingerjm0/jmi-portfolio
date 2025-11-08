@@ -95,8 +95,6 @@ export default function Home() {
       <HomepageBanner />
       <main>
         <HomepageFeatures />
-        <HomepageCerts />
-        <HomepageExp />
       </main>
     </Layout>
   );

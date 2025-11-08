@@ -59,6 +59,15 @@ html {
   color: #FFFFFF;
 }
 
+.footer {
+  padding: 0 var(--ifm-footer-padding-horizontal) 1rem var(--ifm-footer-padding-horizontal);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.footer__logo {
+  margin-top: 0px;
+}
+
 /* NavBar styles */
 
 .navbar__logo {
