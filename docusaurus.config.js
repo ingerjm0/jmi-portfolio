@@ -109,23 +109,13 @@ const config = {
         ],
       },
       footer: {
+        logo: {
+          src: '/img/logo-full.png',
+          width: '140',
+          href: 'https://jmidocs.com',
+        },
         style: 'dark',
-        links: [
-          {
-            title: 'Contact',
-            items: [
-              {
-                label: 'E-mail me!',
-                to: 'mailto:jenna.m.ingersoll@gmail.com',
-              },
-              {
-                label: 'Find me on LinkedIn',
-                to: 'https://www.linkedin.com/in/jenna-ingersoll/',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Jenna Ingersoll. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jenna Ingersoll<br />Built with Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,

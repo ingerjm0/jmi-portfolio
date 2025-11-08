@@ -13,7 +13,7 @@ function HomepageBanner() {
     <div className={clsx(styles.heroBanner)} >
       <div className={clsx(styles.heroInner)}>
         <Heading as="h1" className={clsx(styles.heroTagline)}>
-          <img src={require('../../static/img/ingersoll-headshot-2025.png').default} className={clsx(styles.heroPhoto)} alt="Headshot of Jenna Ingersoll" />
+          <img src={require('@site/static/img/ingersoll-headshot-2025.png').default} className={clsx(styles.heroPhoto)} alt="Headshot of Jenna Ingersoll" />
           <span class={clsx(styles.heroTitle)}>{siteConfig.title}</span>
         </Heading>
         <p><b>Content and knowledge systems should do more than inform. They should empower.</b></p>
