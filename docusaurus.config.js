@@ -60,8 +60,10 @@ const config = {
     ({
       image: 'img/ingersoll-og.png',
       metadata: [
+        { property: 'og:image', content: 'https://jmidocs.com/img/ingersoll-og.png' },
+        { property: 'og:image:secure_url', content: 'https://jmidocs.com/img/ingersoll-og.png' },
+        { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:image', content: 'https://jmidocs.com/img/ingersoll-og.png' },
-        { property: 'og:url', content: 'https://jmidocs.com/img/ingersoll-og.png' }
       ],
       colorMode: {
         defaultMode: 'light',
