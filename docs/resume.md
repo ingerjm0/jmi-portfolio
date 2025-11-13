@@ -341,5 +341,10 @@ Computational science is widely recognized as the fourth pillar of modern scienc
 - **Development & Methodologies**: Agile, Waterfall, SDLC, version control, developer tools, and structured authoring
 - **Cloud & AI Foundations**: Certified Google Cloud Digital Leader, focusing on cloud computing, data analytics, and machine learning concepts
 
+---
+
+**Download Resume (PDF):**
+- [Knowledge Management](https://drive.google.com/file/d/1O09jOMHWd0Wt3tmS4Eza4MW_-6IC-AnX/view?usp=drive_link) 
+- [Technical Writing | Documentation](https://drive.google.com/file/d/1R_QobH0fu_BnSH6ThXgmjcNaWxJjJcGo/view?usp=drive_link)
 
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
