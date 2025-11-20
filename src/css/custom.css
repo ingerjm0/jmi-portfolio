@@ -196,3 +196,17 @@ theme-admonition-note img {
 .margin-bottom--xl {
   margin-bottom: 3rem !important;
 }
+
+.blog-twoColumn {
+  display: flex;
+  width: 100%;
+}
+
+.blog-wideCol {
+  flex:5;
+}
+
+.blog-thinCol {
+  flex:2;
+  padding: 0 1em;
+}
