@@ -26,7 +26,8 @@ When I'm not working, you can find me in the great outdoors hiking, gardening, o
 
 **Download Resume (PDF):**
 - [Knowledge Management](https://drive.google.com/file/d/1O09jOMHWd0Wt3tmS4Eza4MW_-6IC-AnX/view?usp=drive_link) 
-- [Technical Writing | Documentation](https://drive.google.com/file/d/1R_QobH0fu_BnSH6ThXgmjcNaWxJjJcGo/view?usp=drive_link)
+- [Documentation Manager](https://drive.google.com/file/d/1zFz2gIrV9_od13sV2htyRyOkA2I0FK2D/view?usp=sharing)
+- [Staff/Lead/Principal Technical Writer](https://drive.google.com/file/d/18TQZUJIs7H5rURyavy5PsKUFHuo0MJG6/view?usp=sharing)
 
 ### TEAM LEADER
 
