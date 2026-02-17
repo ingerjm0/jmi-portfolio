@@ -14,7 +14,7 @@ title: About Me
     </div>
     <div class="aboutme-photo">
 
-![Jenna Ingersoll](/img/ingersoll-outdoors.jpg)
+![Jenna Ingersoll](/img/ingersoll-outdoors.jpeg)
 
     </div>
 </div>
