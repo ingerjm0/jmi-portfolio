@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Strategy-Driven Leader in Content & Knowledge Management',
+  title: 'jmidocs.com',
   tagline: 'Hello! I’m Jenna Ingersoll — a strategy-driven content and knowledge leader with a passion for technology and writing. I build scalable content and knowledge systems that don’t just inform—they empower.',
   favicon: 'img/favicon.ico',
 
@@ -47,6 +47,7 @@ const config = {
           blogTitle: 'Beyond the Docs',
           blogDescription: 'A Blog about knowledge management, technical writing, continuous improvement, and more',
           blogSidebarTitle: ' ',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: './src/css/custom.css',
