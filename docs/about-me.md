@@ -28,6 +28,7 @@ When I'm not working, you can find me in the great outdoors hiking, gardening, o
 - [Knowledge Management](https://drive.google.com/file/d/1-1EypjnZPl3Vgewu0VpWKqt2_EfRZvuk/view?usp=sharing) 
 - [Technical Writing & Documentation Manager](https://drive.google.com/file/d/1zFz2gIrV9_od13sV2htyRyOkA2I0FK2D/view?usp=sharing)
 - [Staff | Lead | Principal Technical Writer](https://drive.google.com/file/d/18TQZUJIs7H5rURyavy5PsKUFHuo0MJG6/view?usp=sharing)
+- [Program & Project Management](https://drive.google.com/file/d/1a334Hga5AhNf-y11tsNRMgodiy_D4v6n/view?usp=sharing)
 
 ### TEAM LEADER
 
