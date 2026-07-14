@@ -13,7 +13,6 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
   --ifm-heading-color: #404542;
   --ifm-heading-font-family: Nunito;
   --ifm-navbar-height: 4.5rem;
@@ -21,8 +20,11 @@
   --ifm-navbar-link-color: #ffffff;
   --ifm-navbar-link-hover-color: #ffffff;
   --ifm-h3-font-size: 1.1rem;
-  --ifm-code-font-size: .8em;
-  --ifm-container-width-xl: 1480px;
+  --ifm-code-font-size: .8rem;
+  --ifm-code-background: unset;
+  --ifm-code-padding-horizontal: 0.2rem;
+  --ifm-font-family-monospace: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  --ifm-container-width-xl: 1440px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
@@ -41,18 +43,19 @@
 /* Global styles */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
 
 html {
   font-family: 'Montserrat';
   font-weight: 450;
 }
 
-
 .padding-top--md{
   padding-top: 3rem !important;
 }
 
 .button {
+  color: #FFFFFF;
   background-color: #277148;
 }
 
@@ -67,6 +70,10 @@ html {
 
 .footer__logo {
   margin-top: 0px;
+}
+
+.container {
+  margin-left: 6rem;
 }
 
 /* NavBar styles */
@@ -141,11 +148,42 @@ html {
 }
 
 .portfolio-desc {
-  flex:3;
+  flex: 3;
 }
 
 .portfolio-image {
-  flex:1;
+  flex: 1;
+}
+
+.portfolio-desc h3 {
+  padding-left: 50px;
+  margin-bottom: 10px;
+}
+
+.portfolio-btn .button {
+  margin-left: 100px;
+}
+
+.portfolio-btn .button:hover {
+  opacity: .4;
+}
+
+.portfolio-btn .button2 {
+  background-color: #E8EAED;
+  color: #3C4043;
+}
+
+.portfolio-example {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+  border: 3px solid #404542;
+  border-radius: 8px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-example p {
+  margin-bottom: -10px;
 }
 
 .col a:hover {
@@ -153,19 +191,121 @@ html {
   text-decoration-thickness: 2px;
 }
 
-.portfolio-example {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 65%;
-  border: 6px solid #404542;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+/* Hifi portfolio styles */
+
+table {
+  display: table;
+  width: 100%;
 }
 
-.portfolio-example p {
-  margin-bottom: -10px;
+th {
+  text-align: left;
 }
 
+.params th {
+  font-size: .9em;
+}
+
+th .member {
+  color: #525252;
+  font-weight: bold;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+th p {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+td {
+  width: fit-content;
+  min-width: 125px;
+}
+
+td .alert--info {
+  background-color: #FFFFFF;
+  font-size: .85em;
+  margin-top: 5px;
+}
+
+td .hash-link {
+  display: none;
+}
+
+td.type p {
+  padding-right: 2px;
+  white-space: nowrap; 
+}
+
+td p:first-child {
+  margin-top: 0;
+}
+
+td > p {
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+td h4 {
+  margin-bottom: 0;
+}
+
+p.important {
+  color: #800000;
+  font-weight: bold;
+  font-size: .85rem;
+}
+
+.jumpTo {
+  text-align: center;
+  margin-bottom: 30px; 
+  font-size: 13px;
+}
+
+.availableIn {
+  font-size: .85em;
+  padding-top: 0px;
+}
+
+.type-signature {
+  display: none;
+}
+
+.signature-attributes {
+  vertical-align: sub;
+  font-size: 75%; 
+  font-weight: normal;
+  font-style: italic;
+  color: #363737;
+  line-height: 0;
+}
+
+h4 a, .signature {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.8em;
+}
+
+.toc {
+  display: none;
+}
+
+h3.subHeading {
+  font-family: 'Montserrat';
+  font-size: 0.95em;
+  margin-top: 10px;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+th > a:first-child, a.anchor {
+  display: block;
+  height: 80px; /* Match the height of your fixed navbar */
+  margin-top: -80px; /* Pull the anchor point up */
+  visibility: hidden; 
+}
 
 /* Recommendation styles */
 
@@ -192,6 +332,18 @@ theme-admonition-note img {
   display: none !important;
 }
 
+/* Page styles */
+
+@media (min-width: 997px) {
+  .row .docItemCol_VOVn {
+    max-width: 78% !important;
+  }
+}
+
+.col--3 {
+    --ifm-col-width: calc(11 / 50 * 100%);
+}
+
 /* Blog styles */
 
 .margin-bottom--xl {
@@ -204,10 +356,10 @@ theme-admonition-note img {
 }
 
 .blog-wideCol {
-  flex:5;
+  flex: 5;
 }
 
 .blog-thinCol {
-  flex:2;
+  flex: 2;
   padding: 0 1em;
 }

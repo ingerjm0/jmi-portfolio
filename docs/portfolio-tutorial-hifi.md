@@ -4,23 +4,28 @@
 
 ---
 
+### Overview
+
 For this project, I developed a tutorial to instruct our users how to achieve advanced functionality with High Fidelity's open source platform using scripting. Specifically, this tutorial walks someone through the creation of an object, then scripts its behavior to transport an avatar to another location in the metaverse.
 
-The entire goal of this project (and its accompanying tutorials) is to educate users on the immense functionality that the JavaScript API provides. Here, I break down an advanced feature to its simplest parts so that creators with basic scripting knowledge can learn from the samples and develop their own functionality through scripting. 
+The goal of this project (and its accompanying tutorials) is to educate users on the immense functionality that the JavaScript API provides. Here, I break down an advanced feature to its simplest parts so that creators with basic scripting knowledge can learn from the samples and develop their own functionality through scripting. 
 
 ---
 
-## Tutorial: Create a Portal
+<blockquote>
+
+## Sample Tutorial: Create a Portal
 
 Portals in High Fidelity transport you to the domain of your choice. You can use these portals to travel to a domain you visit frequently instead of using the GoTo app on your HUD or Tablet.
 
 To create a portal, you will need to:
 
-- Create Your Portal Entity
-- Write a Script
-- Connect the Script to Your Entity
+- [Create Your Portal Entity](#create)
+- [Write a Script](#script)
+- [Connect the Script to Your Entity](#connect)
 
-### Create Your Portal Entity
+<a class="anchor" id="create" />
+<h3 style={{ margin: '10px 0', fontSize: '14pt', color: '#205d3b' }}> Create Your Portal Entity</h3>
 
 First, you need to create a portal using entities. For simple portals like doors or holes in the ground, you can get away with using cube or spherical entities that are included with the basic create tools in High Fidelity. However, you can make them as complex as you like by creating and importing a 3D model into your domain.
 
@@ -31,7 +36,8 @@ No matter what type of entity you use, it must be collisionless. This lets avata
 3. Add ``hifi://welcome`` (or the destination of your choice) to the **User Data** field.
 3. Scroll down to the **Collision** section and uncheck **Collides**. By turning off collisions, avatars can walk into the entity and trigger the script.
 
-### Write a Script
+<a class="anchor" id="script" />
+<h3 style={{ margin: '10px 0', fontSize: '14pt', color: '#205d3b' }}>Write a Script</h3>
 
 In order to work correctly, you must write a script that defines what happens when an avatar walks into your portal. This script will be a client entity script, meaning that it is attached to an entity and will run separately for each avatar (or client) that walks into it.
 
@@ -181,7 +187,8 @@ function playSound(entityID) {
 }
 ```
 
-### Connect the Script to Your Entity
+<a class="anchor" id="connect" />
+<h3 style={{ margin: '10px 0', fontSize: '14pt', color: '#205d3b' }}>Connect the Script to Your Entity</h3>
 
 Now that you’ve written your script, you will need to attach it to your entity:
 
@@ -191,10 +198,8 @@ Now that you’ve written your script, you will need to attach it to your entity
 
 Now, when you walk into your portal, you will be transported to the destination specified in the **User Data** field of the portal entity.
 
+</blockquote>
+
 ---
 
-<div style={{ textAlign: 'center'}}>
-
-<h3> [View Portfolio](./portfolio) </h3>
-
-</div>
+<a href="./portfolio" class="button button--lg">Back to Portfolio</a>

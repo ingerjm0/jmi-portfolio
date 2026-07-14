@@ -28,7 +28,7 @@ Transforming complex information into clear, user-focused knowledge systems that
 
 <div style={{ textAlign: 'center' }}>
     
-## ARISTOCRAT • Las Vegas, NV (Remote)
+## ARISTOCRAT • Las Vegas NV (Remote)
 
 </div>
 
