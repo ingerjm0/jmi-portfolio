@@ -6,7 +6,9 @@
 
 ### Overview
 
-The High Fidelity JavaScript API lets content creators and developers create new experiences and transform virtual worlds within the High Fidelity metaverse. This sample highlights the work I did to modernize the docs-as-code pipeline, from docs generation to formatting and hosting. Note that High Fidelity no longer supports this API - it was open source, and I have moved all JavaScript files to my personal GitHub.
+The High Fidelity JavaScript API lets content creators and developers create new experiences and transform virtual worlds within the High Fidelity metaverse. This sample highlights the work I did to modernize the docs-as-code pipeline, from docs generation to formatting and hosting. 
+
+High Fidelity is available as an open-source platform, and all content is forked and hosted according to the distribution requirements set out in the Apache License 2.0.
 
 <div class="portfolio-btn">
     <a href="./hifi-api/hifi-index.html" class="button button--lg">Browse API Reference</a>

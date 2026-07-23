@@ -7,6 +7,12 @@ Explore highlights from my work in technical writing, documentation systems, and
 <Card shadow='tl'>
 <CardHeader style={{ backgroundColor: '#205d3b', color: '#FFFFFF', fontSize: '1.2em', fontWeight: 'bold', paddingBottom: '15px' }}>
 
+<div class="toc">
+
+## Developer Docs
+
+</div>
+
 Developer Docs
 
 </CardHeader>
@@ -26,6 +32,12 @@ Developer documentation meets the developer where they are, providing language-s
 <Card shadow='tl'>
 <CardHeader style={{ backgroundColor: '#205d3b', color: '#FFFFFF', fontSize: '1.2em', fontWeight: 'bold', paddingBottom: '15px' }}>
 
+<div class="toc">
+
+## Release Notes
+
+</div>
+
 Release Notes
 
 </CardHeader>
@@ -44,6 +56,12 @@ Release notes bridge the gap between development and delivery, helping users und
 <Card shadow='tl'>
 <CardHeader style={{ backgroundColor: '#205d3b', color: '#FFFFFF', fontSize: '1.2em', fontWeight: 'bold', paddingBottom: '15px' }}>
 
+<div class="toc">
+
+## Help Systems
+
+</div>
+
 Help Systems
 
 </CardHeader>
@@ -51,8 +69,8 @@ Help Systems
 
 A help system is more than just pages and pages of text; its a form of user assistance, designed to walk a user directly to the topic that will best help them. Great online help systems know their audience, simplify the navigation, and stay on top of the most recent technological and design trends.
 
-<h3> [High Fidelity User Documentation](./portfolio-help-hifi.md)</h3>
-<h3> [BarTender Help System](./portfolio-help-seagull.md)</h3>
+<h3> &#128206; [High Fidelity User Documentation](./portfolio-help-hifi.md)</h3>
+<h3> &#128206; [BarTender Help System](./portfolio-help-seagull.md)</h3>
 
 </CardBody>
 </Card>

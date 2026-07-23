@@ -160,11 +160,17 @@ html {
   margin-bottom: 10px;
 }
 
-.portfolio-btn .button {
+.portfolio-btn2 {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+}
+
+.portfolio-btn .button, .portfolio-btn2 .button {
   margin-left: 100px;
 }
 
-.portfolio-btn .button:hover {
+.portfolio-btn .button:hover, .portfolio-btn2 .button:hover {
   opacity: .4;
 }
 
